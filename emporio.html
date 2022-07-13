@@ -14,18 +14,75 @@
         }
 
         body {
+            font-family: Arial, Helvetica, sans-serif;
             background-color: #302E2D
         }
 
         header {
-            background-color: #C28530;
-            padding: 25px;
-            margin-top: 25px;
+            background-image: linear-gradient(to top, #c27c1a9c, #cc8623dc);
+            
+            margin:auto;
             font-size: 30px;
-            display: grid;
-            ilan-align: center;
+            box-shadow: 1px 1px 0px black; 
             
         }
+
+section>img {
+    width: 60%;
+    display: block;
+    margin: auto;
+}        
+
+section>h1 {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+section>h2 {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    text-shadow: 1px 1px 1px black;
+    margin-bottom: 80px;
+
+}
+
+.section-eve {
+    background-color: #f5f4f4;
+    padding: 100px 0px;
+}
+.section-eve>div {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.582);
+    margin: 15px;
+
+}
+
+.section-eve>h1 {
+    color: black;
+}
+
+.section-eve>h2 {
+    color: black;
+}
+
+.pizza {
+    margin-top: 80px; 
+    
+
+}
+
+.pizza>h1 {
+    font-size: 50px;
+}
+
+.pizza>h2 {
+    font-size: 25px;
+}
+
+
     </style>
 </head>
 
@@ -37,19 +94,23 @@
         <a href="#">japonês</a>
     </header>
 
+    
+
     <section>
         <img src="img/logo.png" alt="">
         <h1>Mais que um Restaurante</h1>
         <h2>seu momento de lacher</h2>
     </section>
 
-    <section>
-        <h1>Eventos</h1>
-        <h2>melhores pacotes com os melhores preço</h2>
-
+    <section class="section-eve">
+        <div>
+            <h1>Eventos</h1>
+            <h2>melhores pacotes com os melhores preço</h2>
+        </div>
+            
     </section>
 
-    <section>
+    <section class="pizza">
         <h1>pizzas</h1>
         <h2>mais saborosas</h2>
     </section>
