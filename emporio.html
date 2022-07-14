@@ -8,6 +8,9 @@
     <title>Emporio ADBV</title>
 
     <style>
+        @import url('https://fonts.googleapis.com/css2? family= Edu+VIC+WA+NT+Beginner:wght@500 & display=swap');
+
+
         . {
             margin: 0;
             padding: 0;
@@ -19,83 +22,113 @@
         }
 
         header {
-            background-image: linear-gradient(to top, #c27c1a9c, #cc8623dc);
-            
-            margin:auto;
-            whi
-            font-size: 30px;
-            box-shadow: 1px 1px 0px black; 
-                     
+            background-image: linear-gradient(to top, #302E2D, #c27c1a9c, #cc8623dc);
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
-section>img {
-    width: 60%;
-    display: block;
-    margin: auto;
-}        
+        header>a {
+            margin: 20px auto 40px auto;
+            font-size: 20px;
+            color: rgb(29, 28, 28);
+            font-family: 'Edu VIC WA NT Beginner', Arial, Helvetica, sans-serif;
+            text-decoration: none;
+        }
 
-section>h1 {
-    text-align: center;
-    font-size: 25px;
-    color: white;
-    text-shadow: 1px 1px 1px black;
-}
+        header>a:hover {
+            color: #ffffff;
+            transition: 1s;
+        }
 
-section>h2 {
-    text-align: center;
-    color: white;
-    font-size: 15px;
-    text-shadow: 1px 1px 1px black;
-    margin-bottom: 80px;
+        .sombra {
+            width: auto;
+            height: 20px;
 
-}
-
-.section-eve {
-    background-color: #f5f4f4;
-    padding: 100px 0px;
-}
-.section-eve>div {
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.582);
-    margin: 15px;
-
-}
-
-.section-eve>h1 {
-    color: black;
-}
-
-.section-eve>h2 {
-    color: black;
-}
-
-.pizza {
-    margin-top: 80px; 
-    
-
-}
-
-.pizza>h1 {
-    font-size: 50px;
-}
-
-.pizza>h2 {
-    font-size: 25px;
-}
+        }
 
 
+        section>img {
+            width: 60%;
+            display: block;
+            margin: -10px auto;
+        }
+
+        section>h1 {
+            text-align: center;
+            font-size: 28px;
+            color: white;
+            text-shadow: 1px 1px 1px black;
+        }
+
+        section>h2 {
+            text-align: center;
+            color: white;
+            font-size: 20px;
+            text-shadow: 1px 1px 1px black;
+            margin-bottom: 80px;
+
+        }
+
+        .section-eve {
+            background-color: #f5f4f4;
+            padding: 200px 0px;
+            background-image: url('../img/im.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+
+        }
+
+        .section-eve>div {
+            background-color: rgba(0, 0, 0, 0.582);
+            width: 400px;
+            margin: 0px 20px;
+        }
+
+        .section-eve>div>h1 {
+            color: #ffffff;
+            padding: 10px 0px 0px 20px;
+        }
+
+        .section-eve>div>h2 {
+            color: #ffffff;
+            padding: 10px 0px 10px 20px;
+        }
+
+        .pizza {
+            background-color: #000000;
+            ;
+            padding: 200px 0px;
+            background-image: url('../img/pp.jpeg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .pizza>h1 {
+            font-size: 50px;
+        }
+
+        .pizza>h2 {
+            font-size: 25px;
+        }
     </style>
 </head>
 
 <body>
     <header>
-        <a href="#">cardápios</a>
-        <a href="#">eventos</a>
-        <a href="#">pizzas</a>
-        <a href="#">japonês</a>
+        <a href="#">Cardápios</a>
+        <a href="#">Eventos</a>
+        <a href="#">Pizzas</a>
+        <a href="#">Japonês</a>
     </header>
 
-    
+    <div class="sombra"></div>
+
+
 
     <section>
         <img src="img/logo.png" alt="">
@@ -108,7 +141,7 @@ section>h2 {
             <h1>Eventos</h1>
             <h2>melhores pacotes com os melhores preço</h2>
         </div>
-            
+
     </section>
 
     <section class="pizza">
